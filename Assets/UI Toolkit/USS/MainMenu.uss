@@ -1,0 +1,199 @@
+.mainmenu {
+    background-color: rgba(0, 0, 0, 0.39);
+    border-top-width: 50px;
+    border-right-width: 50px;
+    border-bottom-width: 50px;
+    border-left-width: 50px;
+    border-left-color: rgba(0, 0, 0, 0.39);
+    border-right-color: rgba(0, 0, 0, 0.39);
+    border-top-color: rgba(0, 0, 0, 0.39);
+    border-bottom-color: rgba(0, 0, 0, 0.39);
+    justify-content: flex-start;
+    align-items: auto;
+    align-self: auto;
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.buttoncontainer {
+    background-color: rgba(255, 200, 100, 0.29);
+    border-left-color: rgba(0, 0, 0, 0.39);
+    border-right-color: rgba(0, 0, 0, 0.39);
+    border-top-color: rgba(0, 0, 0, 0.39);
+    border-bottom-color: rgba(0, 0, 0, 0.39);
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    width: 30%;
+    align-self: flex-start;
+    height: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    justify-content: center;
+    flex-grow: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    flex-shrink: 1;
+}
+
+.menubutton {
+    width: 70%;
+    height: 20%;
+    align-items: auto;
+    align-self: auto;
+    justify-content: flex-start;
+    flex-grow: 0;
+    position: relative;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    overflow: visible;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 200, 100, 0.39);
+    border-left-color: rgba(0, 0, 0, 0.39);
+    border-right-color: rgba(0, 0, 0, 0.39);
+    border-top-color: rgba(0, 0, 0, 0.39);
+    border-bottom-color: rgba(0, 0, 0, 0.39);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 0;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.59);
+}
+
+.menubutton:hover {
+    width: 90%;
+    height: 20%;
+    align-items: auto;
+    align-self: auto;
+    justify-content: flex-start;
+    flex-grow: 0;
+    position: relative;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    overflow: visible;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 200, 100, 0.59);
+    border-left-color: rgba(0, 0, 0, 0.39);
+    border-right-color: rgba(0, 0, 0, 0.39);
+    border-top-color: rgba(0, 0, 0, 0.39);
+    border-bottom-color: rgba(0, 0, 0, 0.39);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 0;
+    scale: 1 1.1;
+    transition-duration: 0.1s;
+    font-size: 40px;
+    -unity-font-style: bold;
+    color: rgba(255, 255, 255, 0.59);
+}
+
+.menubutton:focus {
+    width: 90%;
+    height: 20%;
+    align-items: auto;
+    align-self: auto;
+    justify-content: flex-start;
+    flex-grow: 0;
+    position: relative;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    overflow: visible;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 200, 100, 0.59);
+    border-left-color: rgba(0, 0, 0, 0.39);
+    border-right-color: rgba(0, 0, 0, 0.39);
+    border-top-color: rgba(0, 0, 0, 0.39);
+    border-bottom-color: rgba(0, 0, 0, 0.39);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 0;
+    scale: 1 1.1;
+    transition-duration: 0.1s;
+    font-size: 40px;
+    -unity-font-style: bold;
+    color: rgba(255, 255, 255, 0.59);
+}
+
+.optionscontainer {
+    background-color: rgba(255, 200, 100, 0.39);
+    width: 50%;
+    height: 100%;
+    flex-grow: 1;
+    align-self: center;
+    overflow: visible;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-left-color: rgba(0, 0, 0, 0.39);
+    border-right-color: rgba(0, 0, 0, 0.39);
+    border-top-color: rgba(0, 0, 0, 0.39);
+    border-bottom-color: rgba(0, 0, 0, 0.39);
+}
+
+.confirmwindowbutton {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-left-color: rgba(0, 0, 0, 0.39);
+    border-right-color: rgba(0, 0, 0, 0.39);
+    border-top-color: rgba(0, 0, 0, 0.39);
+    border-bottom-color: rgba(0, 0, 0, 0.39);
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 30%;
+    height: 85%;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.59);
+}
+
+.confirmwindowbutton:hover {
+    scale: 1.1 1.1;
+}
+
+.confirmwindowbutton:focus {
+    scale: 1.1 1.1;
+    display: flex;
+}
